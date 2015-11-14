@@ -14,6 +14,12 @@ $ git status
 $ git log
 $ git log --full-diff -p README.md
 ```
+
+## Trabalhando com branchs
+```shell
+$ git checkout -b <name> # Cria e faz checkout na nova branch
+$ git checkout <name> # Altera entre as branchs
+```
 ## Checkout
 ```shell
 $ git checkout -- <file> #Desfaz as mudanças
