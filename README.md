@@ -20,7 +20,16 @@ $ git log --full-diff -p README.md
 $ git checkout -b <name> # Cria e faz checkout na nova branch
 $ git checkout <name> # Altera entre as branchs
 ```
+
 ## Checkout
 ```shell
 $ git checkout -- <file> #Desfaz as mudanças
+```
+
+# Trabalhando com tags
+```shell
+$ git tag                               # Lista todas as tags
+$ git tag -a v0.0.1 -m "Texto qualquer" # Adiciona uma nova tag
+$ git show v0.0.1                       # Mostra conteudo da tag
+$ git tag -d v0.0.1                     # Apaga uma tag
 ```
