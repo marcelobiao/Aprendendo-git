@@ -7,7 +7,7 @@ $ git config --global user.name "Marcelo Bião"
 $ git config --global user.email "marcelobiao2@gmail.com"
 $ git init
 $ git status
-$ git clone <url> # Clona um repositório  
+$ git clone <url> # Clona o repositório da url  
 ```
 
 ## Comandos de Log
@@ -42,3 +42,5 @@ $ git tag -d v0.0.1                     # Apaga uma tag
 $ git remote add origin <url>
 $ git push -u origin master # apenas a primeira vez
 ```
+
+# teste.
